@@ -1,0 +1,76 @@
+:root {
+  --border-with: 3px;
+}
+
+body {
+  user-select: none;
+}
+
+.font {
+  font-family: 'Roboto', sans-serif;
+}
+
+.left_sidebar-profile-settings_button{
+  width: 20px; height: 20px;
+  border: none;
+  border-radius: 50%;
+  background-color: #999999;
+  transition: 1s;
+}
+
+.left_sidebar-profile-settings_button:hover {
+  background-color: #cccccc;
+  transition: 1s;
+}
+
+.left_sidebar-profile-settings_button:active {
+  background-color: #666666;
+  transition: 1s;
+}
+
+.left_sidebar-profile-settings_button:focus {
+  background-color: #666666;
+  transition: 1s;
+}
+
+.color-text::selection {
+  color: rgb(255, 145, 0);
+}
+
+.left_side-bar {
+  border: black solid var(--border-with);
+  border-radius: 26px;
+  padding: 20px;
+}
+
+.left_sidebar-profile {
+  border: black solid var(--border-with);
+  border-radius: 26px;
+  padding: 20px;
+}
+
+.left-sidebar-tabs {
+  border: solid var(--border-with);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 26px;
+}
+
+.tab {
+  border: black solid var(--border-with);
+  border-radius: 26px;
+  padding-left: 10px; padding-right: 10px;
+  transition: 1s;
+}
+
+.tab:hover {
+  background-color: #cccccc;
+}
+
+.tab-projects-checkbox, .tab-my_company-checkbox, .tab-help-checkbox, .tab-settings-checkbox {
+  display: none;
+}
+
+.tab-settings-checkbox:checked {
+
+}
